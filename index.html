@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yadnyesh Khapekar Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+	
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.packages .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  padding: 10px;
+}
+
+.packages .box-container .box{
+  flex:1 1 300px;
+  border-radius: .50px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
+
+.packages .box-container .box img{
+  height: 250px;
+  width:100%;
+  object-fit: cover;
+}
+
+.packages .box-container .box .content{
+  padding:20px;
+}
+
+.packages .box-container .box .content h3{
+  font-size:20px;
+  color:#333;
+}
+
+.packages .box-container .box .content h3 i{
+  color:var(--orange);
+}
+
+.packages .box-container .box .content p{
+  font-size:17px;
+  color:#666;
+  padding:1rem 0;
+}
+
+.packages .box-container .box .content .stars i{
+  font-size:17px;
+  color:var(--orange);
+}
+
+.packages .box-container .box .content .price{
+  font-size: 20px;
+  color:#333;
+  padding-top: 10px;
+}
+
+.packages .box-container .box .content .price span{
+  color:#666;
+  font-size: 15px;
+  text-decoration: line-through;
+}
+.packages .mesorny{
+    columns: 4;
+    column-gap: 1.6rem;
+    padding: .4rem;
+}
+.packages .grid img{
+    width: 100%;
+    border-radius: .5rem;
+}
+.packages .grid{
+    display: inline-block;
+    margin-bottom: 1.6rem;
+    position: relative;
+}
+@media (max-width: 1200px){
+    .packages .mesorny{
+        columns: 3;
+    }
+}
+@media (max-width: 992px){
+    nav{
+        display: inline-table;
+        justify-content: center;
+    }
+    
+    .packages .mesorny{
+        columns: 2;
+    }
+}
+@media (max-width: 520px){
+    .packages .mesorny{
+        columns: 1;
+    }
+}
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	 <div class="nav"> 
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Yadnyesh Khapekar</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Blogs</span></a></li>
+	          <li class="nav-item"><a href="#Testimonials-section" class="nav-link"><span>Testimonials</span></a></li>
+			  <li class="nav-item"><a href="#packages" class="nav-link"><span>Gallery</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	</div>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bull2-removebg-preview\ \(1\)_enhanced.png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Namaste!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Yadnyesh Khapekar</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'MBA Student  ',
+						'OSCM Forum Member  ',
+						'   ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>MIT-WPU Student</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="https://www.linkedin.com/in/yadnyesh-khapekar-108632272" class="btn btn-primary py-3 px-4">LinkedIn</a> 
+							
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/closeup.jpg" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Yadnyesh Khapekar</span></p>
+										<p><span class="title-s"></span> <span></span></p>
+										<p><span class="title-s"></span> <span></span></p>
+										<p><span class="title-s">Address: </span> <span>Pune, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>Team Leadership</span> <span class="pull-right">100%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Strategic Planning</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Market Research & Competitive Analysis</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Statistical Analysis</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Presentation Skills</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Yadnyesh L. Khapekar is currently pursuing an MBA in Operations and Supply Chain Management (MBA-OSCM) at MIT-WPU. With a deep interest in understanding the complexities of supply chains, he is focused on developing efficient solutions to optimize operations. He emphasizes continuous learning and professional growth and aims to apply his skills and knowledge to real-world challenges, aiming to make a significant impact in the field. Yadnyesh is open to connecting with like-minded professionals and is enthusiastic about exploring collaboration opportunities within the industry.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>MBA Student</span></li>
+									<li class="d-flex"><span>Age:</span> <span>22</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Pursuing MBA-OSCM</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Marathi, Hindi</span></li>
+									<li class="d-flex"><span>Hobbies:</span> <span>Playing Synthesizer &amp; Bike Rides</span></li>
+									<li class="d-flex"><span></span> <span></span></li>
+									<li class="d-flex"><span></span> <span></span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="" data-number=""></span> <span></span>
+									<span>&nbsp; </spanspan>
+								</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+								
+							
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Yadnyesh</h1>
+            <h2 class="mb-4">Yadnyesh</h2>
+            <p></p>
+          </div>
+        </div>
+
+		<div class="row">
+			<div class="row justify-content-center pb-5">
+		  <div class="col-md-10 heading-section text-center ftco-animate">
+			<h1 class="big big-2">Blogs</h1>
+			<h2 class="mb-4">Blogs</h2>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">My Journey in Operations and Supply Chain Management</span>
+						<h2></h2>
+						<span class="position"></span>
+						<p class="mt-4"> Hello! I’m Yadnyesh L. Khapekar, currently pursuing an MBA in Operations and Supply Chain Management at MIT-WPU. I started this program in August 2024 with the goal of building expertise in a field that plays a vital role in every business’s success. I’m excited to share my journey with you through this blog, where I’ll explore what I’m learning, industry trends, and my insights into the evolving world of supply chain management.
+							<ul>
+								<li>Why I Chose Operations and Supply Chain Management
+									Every product we buy, every service we use, has a complex journey behind it, involving planning, procurement, production, and logistics. This seamless integration of processes fascinates me, and it’s a big reason why I chose this field. Operations and supply chain management isn’t just about moving goods; it’s about driving efficiency, improving service quality, and responding to the fast-evolving demands of today’s global markets.</li>
+								<li>My Experience So Far
+									Since beginning my MBA, I’ve had numerous opportunities to grow, both academically and personally. Early on, I was welcomed into the Operations and Supply Chain Management forum after winning an Ice Breaking session—an experience that motivated me to dive deeper into my studies. I’ve also had a memorable interaction with my lecturer, Shreya Shah, who makes learning both engaging and practical through interactive activities and real-world examples.</li>
+								<li>What’s Next
+									Looking ahead, I’m eager to apply what I’m learning in a professional setting, where I can contribute to creating efficient, sustainable, and resilient supply chains. I believe that a strong supply chain is a crucial foundation for any business, and I’m excited to be part of a field that directly impacts customer satisfaction, cost management, and business continuity.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">My Experience with the Operations Forum at MIT-WPU</span>
+						<h2></h2>
+						<span class="position"></span>
+						<p class="mt-4">Hello, and welcome to my portfolio! I’m Yadnyesh L. Khapekar, a current MBA student specializing in Operations and Supply Chain Management at MIT-WPU. One of the highlights of my journey so far has been my involvement with the Operations Forum, a dedicated platform for students like me who are passionate about the field of operations. In this blog, I’ll share how the forum has enriched my academic experience, contributed to my growth, and shaped my career aspirations. 
+							<ul>
+								<li>What is the Operations Forum?
+									The Operations Forum at MIT-WPU is a collaborative space where students come together to discuss, explore, and gain practical insights into operations and supply chain management. Through workshops, guest lectures, case study discussions, and interactive activities, the forum bridges the gap between academic learning and real-world application. It’s a place where we can delve into the complexities of the field, discuss industry trends, and learn from experts.</li>
+								<li>Learning Beyond the Classroom
+									The Operations Forum provides a platform for experiential learning beyond traditional lectures and assignments. Through case studies and simulations, I’ve had the chance to apply theoretical concepts to practical scenarios. For instance, recent discussions on topics like lean manufacturing and supply chain resilience helped me understand the real-world challenges businesses face in maintaining efficiency and agility..</li>
+								<li>Looking Ahead
+									As I continue my journey with the Operations Forum, I’m excited to dive deeper into advanced topics, expand my knowledge of emerging technologies, and further develop my leadership skills. I’m grateful for the opportunity to learn in such an inspiring environment, and I’m looking forward to sharing more experiences, projects, and insights on this blog as I progress.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+		
+	
+
+
+<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="row justify-content-center pb-5">
+			<div class="col-md-10 heading-section text-center ftco-animate">
+			<h1 class="big big-2">Education</h1>
+			<h2 class="mb-4">Education</h2>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2020-2023</span>
+    					<h2>Bachelor of Business Administration in International Business (BBA-IB)</h2>
+    					<span class="position">Brihan Maharashtra College of Commerce (BMCC)</span>
+    					<p class="mt-4"></p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2019-2020</span>
+    					<h2>Higher Secondary School</h2>
+    					<span class="position">Sir Parashurambhau College</span>
+    					<p class="mt-4"></p>
+    				</div>
+				</div>
+    		</div>
+			
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/1BVhjlViPsXZbJ96wSuJo83Zzadt1YUIz/view?usp=drive_link" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+		
+			
+			
+    	</div>
+    </section>
+	
+
+
+	<section class="ftco-section Testimonials-section ftco-no-pb" id="Testimonials-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+				<h1 class="big big-2">Testimonials</h1>
+				<h2 class="mb-4">Testimonials</h2>
+				<p>Below are the following Testimonials</p>
+				<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Nikhil Mahadik</span>
+						<h2></h2>
+						<span class="position"></span>
+						<p class="mt-4"> Having Yadnyesh L. Khapekar as my silent partner has been a true advantage in our hardware materials business. Even in a behind-the-scenes role, Yadnyesh’s insights and innovative ideas have been game-changers. He consistently offers fresh perspectives on how we can improve our product offerings and streamline processes, helping us stay competitive. His understanding of market trends and his creative tips for innovation have driven real progress in our business. I deeply value Yadnyesh’s strategic guidance and support—he’s a reliable partner who always has our long-term growth in mind.
+							<ul>
+								
+									
+								
+									
+								
+									
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Tushar Chaure</span>
+						<h2></h2>
+						<span class="position"></span>
+						<p class="mt-4">In the wholesale industry of refrigerator stands, washing machine stands, and plastic chairs, Yadnyesh L. Khapekar has been a valuable member of our team. He stands out for his aggressive attitude, careful attention to detail, and strong work ethic. In addition to handling his duties effectively, Yadnyesh contributes insightful knowledge from his international business degree and continuing operations and supply chain management coursework. He has played a key role in improving our supply chain and reducing our inventory, both of which have improved our operations. Working with someone as dedicated and creative as Yadnyesh has been enjoyable, and I have no doubt that he will have a successful future in this field.
+							<ul>		
+								
+									
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">Vaibhavi Tapdiya</span>
+							<h2></h2>
+							<span class="position"></span>
+							<p class="mt-4">My experience graduating with Yadnyesh L. Khapekar from our BBA-IB program at BMCC, Pune, taught me the value of genuine commitment and teamwork. Yadnyesh consistently went above and above in every project and task, contributing special insights and a well-rounded viewpoint that were advantageous to the team as a whole. He was a fantastic classmate, friend, and motivator because of his background knowledge and ability to relate to everyone. Even in the face of adversity, Yadnyesh's optimistic outlook kept us all on task, and I have no doubt that he will succeed in everything he attempts. I'm forward to follow your journey!
+								<ul>
+									
+									
+								
+									
+								
+									
+								</ul>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">Vaishnavi Sawant</span>
+							<h2></h2>
+							<span class="position"></span>
+							<p class="mt-4">I had the pleasure of studying alongside Yadnyesh L. Khapekar during our BBA-IB program at BMCC, Pune, and I can confidently say he is one of the most dedicated and insightful individuals I know. Yadnyesh consistently approached every project with a professional mindset and brought an impressive level of knowledge in international business. He was always ready to help others, whether explaining complex concepts or organizing group study sessions before exams. Yadnyesh’s positivity and drive motivated all of us to perform our best, and his problem-solving skills often helped us find unique approaches in our assignments. I'm certain he will achieve great things in his career!
+								<ul>
+									
+									
+								
+									
+								
+									
+								</ul>
+							</p>
+						</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+			</div>
+		</div>
+	<section class="packages" id="packages">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<h1 class="big big-2">Photos</h1>
+				<h2 class="mb-4">Photos</h2>
+		   </div>
+			</div>
+		<div class="mesorny">
+			<div class="grid">
+				<img src="images/BMCC Group.jpg" alt="">
+			</div>
+			<div class="grid">
+			   <img src="images/glibe.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/MIT Group.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/College Interactions.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/red.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/Yadnyesh" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/katta.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/jada.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/step.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/emoji.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/doctor.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/forum.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/white.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/idli.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/tamil.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/himalayan.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/img18.jpg" alt="">
+		   </div>
+		   
+		</div>
+		<!--
+	   <div class="container">
+		<div class="row justify-content-center mb-5 pb-5">
+		<div class="col-md-7 heading-section text-center ftco-animate">
+			<h1 class="big big-2">Photos</h1>
+			<h2 class="mb-4">Photos</h2>
+	   </div>
+		</div>
+	   <div class="col-md-4 d-flex ftco-animate">
+		<div class="blog-entry justify-content-end">
+		<a class="block-20 zoom-effect" style="background-image: url('images/BMCC\ Group.jpg');">
+		</a>
+		<div class="text mt-3 float d-block">
+		
+			<h3 class="heading"><a href="">......MIT Group.....</a></h3>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="" class="block-20 zoom-effect" style="background-image: url(images/MIT\ Group.jpg);">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+				<h3 class="heading"><a href=""></a></h3>
+                <p>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="" class="block-20 zoom-effect" style="background-image: url(images/College\ Interactions.jpg);">
+              </a>
+              <div class="text mt-3 float-right d-block">
+  
+	
+		
+
+    </div>
+	</div>
+	</div>
+	</div>-->
+	</section>
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Narayan Peth Pune-30, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://+91 8446579280">+91 8446579280</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p text-align="center"><a href="yadnyesh.khapekar@gmail.com" >yadnyesh.khapekar@gmail.com</a></p>
+	          </div>
+			</div>
+
+		 
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/yadnyesh-khapekar-108632272"><span class="icon-linkedin"></span></a></li>  
+					 
+
+				      <li class="ftco-animate"><a href="https://www.instagram.com/yadnyesh_khapekar/"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <i class="" aria-hidden=""></i><a href="" target="">Yadnyesh</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
